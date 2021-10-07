@@ -1,0 +1,482 @@
+{% extends 'wrapper.html' %}
+{% load static %}
+{% block content %}
+    <!-- Slider Section Start -->
+    <div class="section slider-section">
+
+        <!-- Swiper Container Start -->
+        <div class="slider-container swiper-container animation-style-01">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <!-- Single Slider Start -->
+                    <div class="slingle-slider overlay" data-bg-color="" data-bg-image="/static/images/slider/background.jpg">
+
+                        <!-- Slider Content Start -->
+                        <div class="slider-content">
+                            <h1 class="title">Supersite Creative Agency</h1>
+                            <a href="{% url 'main:service' %}" class="btn btn-outline-whited btn-outline-hover-primary">Let's Start </a>
+                        </div>
+                        <!-- Slider Content End -->
+
+                    </div>
+                    <!-- Single Slider End -->
+                </div>
+
+                <div class="swiper-slide">
+                    <!-- Single Slider Start -->
+                    <div class="slingle-slider overlay" data-bg-color="#000" data-bg-image="/static/images/slider/background-2.jpg">
+
+                        <!-- Slider Content Start -->
+                        <div class="slider-content">
+                            <h2 class="title">Supersite Creative Agency</h2>
+                            <a href="{% url 'main:service' %}" class="btn btn-outline-whited btn-outline-hover-primary">Let's Start </a>
+                        </div>
+                        <!-- Slider Content End -->
+
+                    </div>
+                    <!-- Single Slider End -->
+                </div>
+
+            </div>
+        </div>
+        <!-- Swiper Container End -->
+
+    </div>
+    <!-- Slider Section End -->
+
+    <!-- Content Analysis Section Start -->
+    <div class="section analysis-section bg-name-gray">
+        <div class="container">
+            <div class="row m-b-n30">
+                <div class="col-12 col-md-6 col-lg-4 m-b-30" data-aos="fade-up" data-aos-duration="1100">
+
+                    <!-- Single Analysis Start -->
+                    <!-- Single Analysis End -->
+                    <div class="single-analysis">
+                        <div class="analysis-number">
+                            <span>01</span>
+                        </div>
+                        <div class="analysis-content">
+                            <h4 class="title">Website Development</h4>
+                            <p>Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an intranet (a private network).</p>
+                        </div>
+                    </div>
+                    <!-- Single Analysis End -->
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 m-b-30" data-aos="fade-up" data-aos-duration="1300">
+
+                    <!-- Single Analysis Start -->
+                    <div class="single-analysis">
+                        <div class="analysis-number">
+                            <span>02</span>
+                        </div>
+                        <div class="analysis-content">
+                            <h4 class="title">Mobile App development</h4>
+                            <p>Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, </p>
+                        </div>
+                    </div>
+                    <!-- Single Analysis End -->
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 m-b-30" data-aos="fade-up" data-aos-duration="1500">
+
+                    <!-- Single Analysis Start -->
+                    <div class="single-analysis">
+                        <div class="analysis-number">
+                            <span>03</span>
+                        </div>
+                        <div class="analysis-content">
+                            <h4 class="title">Graphic design</h4>
+                            <p>Graphic design is the profession and academic discipline whose activity consists in projecting visual communications intended to transmit.</p>
+                        </div>
+                    </div>
+                    <!-- Single Analysis End -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content Analysis Section End -->
+
+    <!-- About Section Start -->
+    <div class="section section-margin">
+        <div class="container">
+            <div class="row m-b-n30">
+                <div class="col-lg-6 align-self-center m-b-30" data-aos="fade-up" data-aos-duration="1100">
+                    <div class="about-content">
+                        <h2 class="title">We combine Design, Thinking & Technical.</h2>
+                        <span></span>
+                        <p>Take iterative processes, for example. The idea of developing solutions to problems in an iterative manner has been around for ages. One of the first diagrams that explained continuous improvement was Deming & Shewhart’s PDCA cycle. Later, we saw the OODA loop, the IDEAL model, the DMAIC model, the Spiral model, and of course, the Inspect & Adapt cycle of Agile Development.</p>
+                     <a href="{% url 'main:service' %}" class="btn btn-dark btn-hover-primary m-t-20">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-first order-lg-last m-b-30" data-aos="fade-up" data-aos-duration="1800">
+                    <div class="about-image ms-auto">
+                        <img src="/static/images/about/sqqeaot7cgjs8xgtl4pf.jpg" alt="About Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Section End -->
+
+    <!-- Service Section Start -->
+    <div class="section section-margin-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1100">
+                    <div class="section-title text-center">
+                        <h2 class="title">What We Do</h2>
+                        <span class="d-flex justify-content-center"></span>
+                        <p class="m-auto">Create web site,Mobile App, Graphic Design,Telegram bot,Promotion and others</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-b-n40">
+                <div class="col-lg-4 col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1100">
+                    <!-- Single Service Start -->
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <img style="height:60px; width:70px;" src="/static/images/icon/icons8-website-50.png" alt="Service Icon">
+                        </div>
+                        <h4 class="title">WebSite Development</h4>
+                        <p>Landing Page, Corporate website, Internet shop, Platforms, Individual.</p>
+                        <a href="{% url 'main:contact' %}" class="btn btn-dark btn-hover-primary m-t-20">Order Now</a>
+                    </div>
+                    <!-- Single Service End -->
+                </div>
+                <div class="col-lg-4 col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1200">
+                    <!-- Single Service Start -->
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <img style="height:60px; width:70px;" src="/static/images/icon/kisspng-responsive-web-design-zen-cart-e-commerce-5afbf9e8beafc9.4755864615264629527811.jpg" alt="Service Icon">
+                        </div>
+                        <h4 class="title">Mobile App</h4>
+                        <p>Informational, IOS & Android catalog, Internet shop, Platforms, Individual.</p>
+                        <a href="{% url 'main:contact' %}" class="btn btn-dark btn-hover-primary m-t-20">Order Now</a>
+                    </div>
+                    <!-- Single Service End -->
+                </div>
+                <div class="col-lg-4 col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1300">
+                    <!-- Single Service Start -->
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <img style="height:60px; width:70px;" src="/static/images/icon/icons8-marketing-64.png" alt="Service Icon">
+                        </div>
+                        <h4 class="title">Promotion</h4>
+                        <p>SMM Start, SMM Basic, SMM Profi, SEO optimization top 10, Contextual advertising</p> <a href="{% url 'main:contact' %}" class="btn btn-dark btn-hover-primary m-t-20">Order Now</a>
+                    </div>
+                    <!-- Single Service End -->
+                </div>
+                <div class="col-lg-4 col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1400">
+                    <!-- Single Service Start -->
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <img style="height:60px; width:70px;" src="/static/images/icon/icons8-telegram-app-50.png" alt="Service Icon">
+                        </div>
+                        <h4 class="title">Telegram Bot</h4>
+                        <p>Informational, For online sales, Chain restaurant.</p> <a href="{% url 'main:contact' %}" class="btn btn-dark btn-hover-primary m-t-20">Order Now</a>
+                    </div>
+                    <!-- Single Service End -->
+                </div>
+                <div class="col-lg-4 col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1500">
+                    <!-- Single Service Start -->
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <img style="height:60px; width:70px;" src="/static/images/icon/service-5.png" alt="Service Icon">
+                        </div>
+                        <h4 class="title">Branding & Identity</h4>
+                        <p>Naming, Logo, Brandbook, Business, Plans, Business Presentations.</p>
+                         <a href="{% url 'main:contact' %}" class="btn btn-dark btn-hover-primary m-t-20">Order Now</a>
+                    </div>
+                    <!-- Single Service End -->
+                </div>
+                <div class="col-lg-4 col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1600">
+                    <!-- Single Service Start -->
+                    <div class="single-service">
+                        <div class="service-icon">
+                            <img style="height:60px; width:70px;" src="/static/images/icon/service-2.png" alt="Service Icon">
+                        </div>
+                        <h4 class="title">Production</h4>
+                        <p>Photography, Filming, Animation video. <br> <br></p>
+                         <a href="{% url 'main:contact' %}" class="btn btn-dark btn-hover-primary m-t-20">Order Now</a>
+                    </div>
+                    <!-- Single Service End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service Section End -->
+
+    <!-- Testimonial Section Start -->
+   
+    <!-- Testimonial Section End -->
+
+    <!-- Features Section Start -->
+    <div class="section section-margin feature-section">
+        <div class="container">
+            <div class="row m-b-n40">
+                <div class="col-xl-5 col-lg-6 m-b-40" data-aos="fade-up" data-aos-duration="1100">
+                    <div class="feature-image-wrapper">
+                        <span class="background-shape"></span>
+                        <span class="background-layer">
+								<img src="/static/images/feature/feature-layer.png" alt="Feature Image">
+							</span>
+                        <div class="feature-image">
+                            <img src="/static/images/about/Fotolia_60183824_XL-1-scaled.jpg" alt="Feature Image">
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-6 col-xl-6 offset-xl-1 align-self-center m-b-40">
+                    <div class="section-title text-start" data-aos="fade-up" data-aos-duration="1100">
+                        <h2 class="title m-b-30">Why you should choose us</h2>
+                        <p class="m-auto">Our team consists of programmers, developers, web designers, managers and already 15 people. In the command section, you will see the command. Since we are interested in building our personal brand and this is our face, we deliver projects on time and with high quality. Works are concluded under a contract.  </p>
+                    </div>
+                    <div class="row m-b-n40">
+                        <div class="col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1300">
+                            <!-- Single Service Start -->
+                            <div class="single-service">
+                                <div class="service-icon">
+                                    <img src="/static/images/icon/service-7.png" alt="Service Icon">
+                                </div>
+                                <h4 class="title">Powerful Web Builder</h4>
+                                <p>Phasellus facilis lorem quis lacinia faucibus congue auctor tristique</p>
+                            </div>
+                            <!-- Single Service End -->
+                        </div>
+                        <div class="col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1500">
+                            <!-- Single Service Start -->
+                            <div class="single-service">
+                                <div class="service-icon">
+                                    <img src="/static/images/icon/service-1.png" alt="Service Icon">
+                                </div>
+                                <h4 class="title">Unique Design</h4>
+                                <p>Phasellus facilis lorem quis lacinia faucibus congue auctor tristique</p>
+                            </div>
+                            <!-- Single Service End -->
+                        </div>
+                        <div class="col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1700">
+                            <!-- Single Service Start -->
+                            <div class="single-service">
+                                <div class="service-icon">
+                                    <img src="/static/images/icon/service-8.png" alt="Service Icon">
+                                </div>
+                                <h4 class="title">Reasonable Pricing</h4>
+                                <p>Phasellus facilis lorem quis lacinia faucibus congue auctor tristique</p>
+                            </div>
+                            <!-- Single Service End -->
+                        </div>
+                        <div class="col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1900">
+                            <!-- Single Service Start -->
+                            <div class="single-service">
+                                <div class="service-icon">
+                                    <img src="/static/images/icon/service-9.png" alt="Service Icon">
+                                </div>
+                                <h4 class="title">Intime Delivery</h4>
+                                <p>Phasellus facilis lorem quis lacinia faucibus congue auctor tristique</p>
+                            </div>
+                            <!-- Single Service End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features Section End -->
+
+    <!-- Gallery Section Start -->
+    <div class="section gallery-section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1100">
+                    <h2 class="title m-b-30">Latest Works</h2>
+                    <span class="thick-border pb-0 d-flex justify-content-center"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="gallery-filter-nav bg-name-seashell">
+                        <button class="filter-button active" data-filter="*">All</button>
+                        <button class="filter-button" data-filter=".item1">Design</button>
+                        <button class="filter-button" data-filter=".item2">Branding</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1800">
+                    <div class="row gallery-filter-wrapper m-b-n50">
+                        <div class="col-md-6 col-lg-4 m-b-50 filter-item item2 item3 item4">
+                            <!-- Single Gallery Start -->
+                            <div class="single-gallery">
+                                <div class="gallery-thumb">
+                                    <a href="https://lumelux.uz">
+                                        <img class="fit-image" src="/static/images/portfolio/hvxp2jycozyzxgpp2iqg.jpg" alt="Gallery Image">
+                                        <a href="https://lumelux.uz"><center><h3>Lumenlux.uz</h3></center>
+                                            <p>WEBSITE DEVELOPMENT for an online lighting store </p></a>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Single Gallery End -->
+                        </div>
+                        <div class="col-md-6 col-lg-4 m-b-50 filter-item item1 item3">
+                            <!-- Single Gallery Start -->
+                            <div class="single-gallery">
+                                <div class="gallery-thumb">
+                                    <a href="https://skadiboost.com/">
+                                        <img class="fit-image" src="/static/images/portfolio/zx908rohikvxvcjgip9k.jpg" alt="Gallery Image">
+                                          <a href="https://lumelux.uz"><center><h3>Skadiboost.com</h3></center>
+                                            <p>PLATFORM DEVELOPMENT</p></a>
+                                    </a>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Single Gallery End -->
+                        </div>
+                        <div class="col-md-6 col-lg-4 m-b-50 filter-item item1 item2 item3 item4">
+                            <!-- Single Gallery Start -->
+                            <div class="single-gallery">
+                                <div class="gallery-thumb">
+                                    <a href="http://ulgran.uz/">
+                                        <img class="fit-image" src="/static/images/portfolio/wa3bsfqcn85ds6raqqsn.png" alt="Gallery Image">
+                                          <a href="https://lumelux.uz"><center><h3>Ulgran.uz</h3></center>
+                                            <p>WEBSITE DEVELOPMENTS FOR SALES</p></a>
+                                    </a>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Single Gallery End -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Section End -->
+
+    <!-- Video Banner Section Start -->
+    <div class="section section-padding section-margin overlay" style="" data-bg-image="/static/images/banner/photo_2021-10-02_20-55-34.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <!-- Video Banner wrapper Start -->
+                    <div class="video-banner-wrapper">
+                        <div class="video-banner-content" data-aos="fade-up" data-aos-duration="1100">
+                            <p>Supersite.uz IT Company</p>
+                        </div>
+                        <div class="video-btn" data-aos="fade-up" data-aos-duration="1600">
+                            <a href="https://www.youtube.com/watch?v=GCVTomACT7w" class="btn-play btn-video-popup video-popup">
+                                <img src="/static/images/icon/video-icon.png" alt="Video Icon">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Video Banner wrapper End -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Banner Section End -->
+
+    <!-- Blog Section Start -->
+    <div class="section section-margin-bottom">
+        <div class="container">
+            <div class="row m-b-n40">
+                <div class="col-lg-4 m-b-40 align-self-center" data-aos="fade-up" data-aos-duration="1100">
+                    <div class="about-content">
+                        <h2 class="title">Latest Blog <br> post</h2>
+                        <span></span>
+                        <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur mag ni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro </p>
+                        <a href="{% url 'main:contact' %}" class="btn btn-dark btn-hover-primary m-t-20">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="1500">
+                    <!-- Single Blog Wrapper Start -->
+                    <div class="single-blog-wrapper blog-box">
+                        <div class="single-blog-thumb">
+                            <a class="image" href="{% url 'main:blog' %}"><img style="width:370px;height:230px;" src="/static/images/about/photo_2021-10-02_20-55-34.jpg" alt="Blog Image"></a>
+                        </div>
+                        <div class="single-blog-content">
+                            <div class="blog-meta">
+                                 <span class="blog-meta"><a href="https:www.instagram.com/javlonbek_dev">Javlonbek Torajonov, 03 Octobe, 2021 /</a></span>
+                            </div>
+                            <h4 class="title"><a href="{% url 'main:blog' %}">Our fun team</a></h4>
+                            <p>24.05.2021 celebrated our 3rd anniversary in the new office of our company. Progress is also seen in increasing our team and reaching heights in this niche and moving to a new office with the investment of a piece of our soul.</p>
+                        </div>
+                    </div>
+                    <!-- Single Blog Wrapper End -->
+                </div>
+                <div class="col-lg-4 col-sm-6 m-b-40" data-aos="fade-up" data-aos-duration="2000">
+                    <!-- Single Blog Wrapper Start -->
+                    <div class="single-blog-wrapper blog-box">
+                        <div class="single-blog-thumb">
+                           <a class="image" href="{% url 'main:blog' %}"> <img src="/static/images/about/00819ae2864e53055c4b.jpg" alt="Blog Image"></a>
+                        </div>
+                        <div class="single-blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-meta"><a href="https:www.instagram.com/javlonbek_dev">Javlonbek Torajonov, 03 Octobe, 2021 /</a></span>
+                            </div>
+                            <h4 class="title">What does the site give?</h4>
+                            <p>Everyone who registers their website does so for a benefit, direct or indirect. Companies talk about themselves, share contacts, collect reviews, and sell their products and services.</p>
+                        </div>
+                    </div>
+                    <!-- Single Blog Wrapper End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog Section End -->
+
+    <!-- Begin Brand Area -->
+    <div class="section section-margin-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1100">
+                    <div class="swiper-container brand-slider">
+                       <center> <h2>Our Clients</h2> </center>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+
+                                <a class="brand-item" href="#/">
+                                    <img src="/static/images/brand/d3n7v7jpclevs8lc958f.png" alt="Brand Image">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="brand-item" href="#/">
+                                    <img src="/static/images/brand/i62pkcl0nr5apwnrdyqb.png" alt="Brand Image">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="brand-item" href="#/">
+                                    <img src="/static/images/brand/j0s4wkfigfdn7tenpn5z.png" alt="Brand Image">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="brand-item" href="#/">
+                                    <img src="/static/images/brand/kquq0pvjyc5gk2z5xfw5.png" alt="Brand Image">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="brand-item" href="#/">
+                                    <img src="/static/images/brand/ktkxadljhtwdwkrdkv76.png" alt="Brand Image">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="brand-item" href="#/">
+                                    <img src="/static/images/brand/1-3.png" alt="Brand Image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand Area End Here -->
+
+    <!-- Contact Banner section Start -->
+  
+{% endblock %}

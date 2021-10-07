@@ -1,0 +1,61 @@
+{% extends 'wrapper.html' %}
+{% load static %}
+{% block content %}
+    <!-- Breadcrumb Section Start -->
+    <div class="section breadcrumb-section overlay" data-bg-image="/static/images/about/Fotolia_60183824_XL-1-scaled.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <!-- Breadcrumb wrapper Start -->
+                    <div class="breadcrumb-wrapper">
+                        <h1 class="title text-white" data-aos="fade-up" data-aos-duration="1100">Portfolio</h1>
+
+                        <ul class="breadcrumb-menu" data-aos="fade-up" data-aos-duration="1500">
+                            <li>
+                                <a href="{% url 'main:index' %}">Home</a>
+                            </li>
+                            <li>
+                                <span>Portfolio</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Breadcrumb wrapper End -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Portfolio Section Start -->
+      <div class="section section-margin">
+        <div class="container">
+            <div class="row m-b-n30">
+
+                        {% for portfolio in portfolio %}
+                <div class="col-lg-4 col-sm-6 m-b-30" data-aos="fade-up" data-aos-duration="1100">
+                    <!-- Single Blog Wrapper Start -->
+                    <div class="single-blog-wrapper">
+                        <div class="single-blog-thumb">
+                            <a class="image" href=""><img src="{{portfolio.image.url}}" alt="Blog Image"></a>
+                        </div>
+                        <div class="single-blog-content bg-color-gray">
+                            <div class="blog-meta">
+                                <span>By {{portfolio.author}} {{portfolio.date}}/ </span>
+                            </div>
+                            <h4 class="title"><a href="{% url 'main:blog' %}">{{portfolio.title}}</a></h4>
+                            <p>{{portfolio.body|truncatewords:15}}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+                 
+             
+            </div>
+
+        
+        </div>
+    </div>
+    <!-- Portfolio Section End -->
+{% endblock %}
